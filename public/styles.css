@@ -1,0 +1,124 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.reverse{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    left: 100px;
+    top: 50px;
+}
+
+a:hover{
+    border: 1px solid red;
+}
+  
+.photo-link:hover{
+    border: none;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+  
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 60%;
+    left: 210px;
+}
+
+.top-left2 {
+    position: absolute;
+    top: 70%;
+    left: 210px;
+}
+  
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+  
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Bottom center text */
+.bottom-center{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Center left text */
+.center-left{
+    position: absolute;
+    bottom: -900px;
+    left: 10%;
+}
+
+/* Center right text */
+.center-right{
+    position: absolute;
+    bottom: -700px;
+    right: 10%;
+}
+  
+.top-centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*put image on image*/
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image2 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+/*zoom hover image*/
+.zoom-img {
+    overflow: hidden;
+}
+  
+.zoom-img  img {
+    transition: all .3s ease-in-out;
+}
+  
+.zoom-img img:hover   {
+    transform: scale(1.2);
+}
+

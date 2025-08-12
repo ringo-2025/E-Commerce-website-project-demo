@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Guitar Galaxy Online Shop</title>
+	<link rel="stylesheet" href="stylesShop.css">
+
+	<!--Box Icons-->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body style="background-color: #fffce7; margin: 0;">
+
+    
+
+	<header>
+		<div class="page-title-inner container align-top text-center flex-row-col medium-flex-wrap">
+
+			<div style="background-color:black;">
+				<font color="white">
+					<a href="/Guitar_Galaxy" style="color: white;">首頁</a>
+					<span class="divider">/</span>
+					<a href="/Company_Information" style="color: white;">關於我們</a>
+					<span class="divider">/</span> <a href="/Guitar_Galaxy_Online_Shop" style="color: white;">線上商店</a>
+				</font>
+			</div>
+		</div>
+   
+		<div class="nav container2">
+			<img src="Guitar logo2.png" class="logo" />
+
+			<!--Cart Icon-->
+			<i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0"></i>
+
+			<!--cart-->
+			<div class="cart">
+				<h2 class="cart-title">
+					User:
+					<select name="username" id="username">
+						<option></option>
+						<option>Ringo</option>
+						<option>Paul</option>
+						<option>Victor</option>
+						<option>Billy</option>
+					</select>
+					Detail Box</h2>
+
+				<!--Content-->
+				<div class="cart-content"></div>
+				
+				<!--Total-->
+				<div class="total">
+					<div class="total-title">Total</div>
+					<div class="total-price">$0</div>
+				</div>
+
+				<button type="button" class="btn-buy" onclick="process()">Add Cart</button>
+				<!--Buy Button-->
+				<button type="button" class="btn-buy" onclick="payment_process()">Check Out</button>
+				
+
+				<!--Close Cart-->
+				<i class="bx bx-x" id="close-cart"></i>
+
+			</div>
+
+		</div>
+
+	</header>
+	<!--Products-->
+	<section class="shop container2">
+		<h2 class="section-title">熱賣吉他</h2>
+
+		<!--Shop Content-->
+		<div class="shop-content">
+			<!--Box 1-->
+			<div class="product-box">
+				<a href="/Guitar1_Info" class="photo-link">
+					<img src="guitar_1.png" alt="" class="product-img" />
+				</a>
+				<h2 class="product-title">Taylor 50th Anniversary Builder's Edition 314ce LTD - Kona Burst</h2>
+				<span class="price">$3781</span>
+				<i class="bx bx-shopping-bag add-cart"></i>
+			</div>
+
+			<!--Box 2-->
+			<div class="product-box">
+				<a href="/Guitar2_Info" class="photo-link">
+					<img src="guitar_2.png" alt="" class="product-img" />
+				</a>
+				<h2 class="product-title">ESP Exhibition 2024 EX24-11 HORIZON CTM FR</h2>
+				<span class="price">$2750</span>
+				<i class="bx bx-shopping-bag add-cart"></i>
+			</div>
+
+			<!--Box 3-->
+			<div class="product-box">
+				<a href="/Guitar3_Info" class="photo-link">
+					<img src="guitar_3.png" alt="" class="product-img" />
+				</a>
+				<h2 class="product-title">Boden Singularity NX 7 True Temperament</h2>
+				<span class="price">$5374</span>
+				<i class="bx bx-shopping-bag add-cart"></i>
+			</div>
+
+			<!--Box 4-->
+			<div class="product-box">
+				<a href="/Guitar4_Info" class="photo-link">
+					<img src="blue_lava_original.png" alt="" class="product-img" />
+				</a>
+				<h2 class="product-title">Blue LAVA Original</h2>
+				<span class="price">$2599</span>
+				<i class="bx bx-shopping-bag add-cart"></i>
+			</div>
+
+		</div>
+	</section>
+
+	<h1 id="txt1"></h1>	
+
+	<script src="main.js"></script>
+	
+
+</body>
+
+
+</html>
